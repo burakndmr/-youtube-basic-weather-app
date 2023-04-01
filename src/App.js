@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import City from "./City";
 function App() {
-  const key = "84a91b51124f2bc14e2104a40efa11c9";
+  const key = "";
   const [search, setSearch] = useState("");
   const [city, setCity] = useState();
   useEffect(() => {
